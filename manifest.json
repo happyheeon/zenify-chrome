@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Zenify Chrome",
+  "version": "0.1.0",
+  "description": "Make Chrome feel more like Zen Browser.",
+  "permissions": ["tabs", "sidePanel", "storage", "bookmarks"],
+  "background": {
+    "service_worker": "background/service_worker.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel/sidepanel.html"
+  },
+  "action": {
+    "default_title": "Zenify Chrome"
+  }
+}
